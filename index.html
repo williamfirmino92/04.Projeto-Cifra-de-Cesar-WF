@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passinho do Romano</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>  
+        <h1 class="caixa">Passinho do Romano</h1>
+    </header>  
+
+<main>
+    <form>
+    <section>
+        <input id="cesar" type="radio" name="opcao" value="cifradecesar">
+        <label for="base64">Cifra de Cesar</label>
+        <input id="base64" type="radio" name="opcao" value="base64" checked>
+        <label for="base64">Base64</label>
+    </section>
+
+    <section>
+        <label><strong>Mensagem:</strong></label>
+     <br>   
+        <textarea name="mensagem" id="mensagem" cols="50" rows="10"  class="caixa" placeholder="Digite a sua mensagem..."></textarea>
+    </section>
+
+    <section id="incrementar" >
+        <label for="incrementar">Incremento:</label>
+        <input type="number" id="incrementacao" value="1" name="incrementar" class="caixa-2">   
+    </section>
+
+    <section>
+        <input  type="radio" id="codificar" name="opcao2" onclick="trocaTexto ()"checked>
+        <label for="codificar" >Codificar</label>
+        <input  type="radio" id="decodificar" name="opcao2" onclick="trocaTexto ()">
+        <label for="decodificar">Decodificar</label>
+    </section>
+ 
+    <br>
+        <button id="botao" class="botao-estilo">Codificar</button>
+    </section>
+
+    <br>
+    <br>
+
+        <label><strong>Resultado:</strong></label>
+    <br>
+         <textarea name="resultado" id="resultado" cols="50" rows="10"  class="caixa"></textarea>
+    </section>
+    </form>
+</main>
+    </body>
+</html>
