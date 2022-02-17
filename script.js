@@ -1,3 +1,17 @@
+/* Troca do texto do botão */
+
+let codificar = document.getElementById('codificar');
+let decodificar = document.getElementById('decodificar');
+let botao = document.getElementById('botao');
+
+function trocaTexto () {
+  if (decodificar.checked) {
+    botao.innerText = "decodificar";
+  } else if (codificar.checked) {
+    botao.innerText = "codificar";
+  }
+}
+
 /* Mostrar ou esconder a opção inclemento */
 let cesar = document.getElementById('cesar');
 let base64 = document.getElementById('base64');
@@ -71,19 +85,7 @@ function opcaoEscolhida () {
       }
   }
 
-/* Troca do texto do botão */
 
-let codificar = document.getElementById('codificar');
-let decodificar = document.getElementById('decodificar');
-let botao = document.getElementById('botao');
-
-function trocaTexto () {
-  if (codificar.checked) {
-    botao.innerText = "Codificar";
-  } else if (decodificar.checked) {
-    botao.innerText = "decodificar";
-  }
-}
 
 
 
