@@ -5,9 +5,8 @@ O projeto foi desenvolvido para que o usuário posso introduzir uma mensagem e q
 
 ## 🚀 Finalidade
 
-O projeto APOD da API da NASA foi realizado em um desafio do curso RESILIA EDUCAÇÃO onde desenvolvemos um site aonde o usuário consegue informar a data que deseja e, com isso, é exibido uma foto ou videio do dia escolhido juntamente com uma breve descrição. Utilizamos a API que a nasa oferece como o banco de respostas do projeto.
+O projeto foi uma proposta do curso em desenvolvimento web da Resília Educação aonde fomos desafiados a realizar um "programa" aonde o usuário consegue realizar criptofrafia denominado PASSINHO DO ROMANO.
 
-do curso da RESILIA EDUCAÇÃO, denominado NASA API APOD.
 ## 📋 Tecnologias utilizadas
 
 🛠️No projeto, utilizei HTML5 de forma semânticam o CSS3 e o Javascript.
@@ -22,8 +21,6 @@ do curso da RESILIA EDUCAÇÃO, denominado NASA API APOD.
 
 Utilizei como base as aulas e códigos demostrados em aulas do curso. 
 
-📌 Link do site aonde extrai as fotos: https://unsplash.com/ <br>
-📌 Link da api NASA: https://api.nasa.gov/planetary/apod?api_key=fPYCd2Epp6jDc2uLnSnZfG1RM9Ed4q4W2YpCbxaz
 
 
 ## 📄 Versão
